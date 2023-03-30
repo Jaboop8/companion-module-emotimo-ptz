@@ -1,5 +1,5 @@
 {
-	"name": "canon-ptz",
+	"name": "emotimo-ptz",
 	"version": "2.0.1",
 	"main": "src/index.js",
 	"scripts": {
@@ -8,7 +8,7 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/bitfocus/companion-module-canon-ptz.git"
+		"url": "git+https://github.com/bitfocus/companion-module-emotimo-ptz.git"
 	},
 	"dependencies": {
 		"@companion-module/base": "^1.0.2",

@@ -1,16 +1,16 @@
 {
-	"id": "canon-ptz",
-	"name": "canon-ptz",
-	"shortname": "canon-ptz",
-	"description": "Companion module for Canon PTZ Cameras using the XC Protocol",
+	"id": "emotimo-ptz",
+	"name": "emotimo-ptz",
+	"shortname": "emotimo-ptz",
+	"description": "Companion module for emotimo PTZ Cameras using the XC Protocol",
 	"version": "0.0.0",
 	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-canon-ptz.git",
-	"bugs": "https://github.com/bitfocus/companion-module-canon-ptz/issues",
+	"repository": "git+https://github.com/bitfocus/companion-module-emotimo-ptz.git",
+	"bugs": "https://github.com/bitfocus/companion-module-emotimo-ptz/issues",
 	"maintainers": [
 		{
-			"name": "Joseph Adams",
-			"email": "josephdadams@gmail.com"
+			"name": "Jacob",
+			"email": "jacobw@emotimo.com"
 		}
 	],
 	"legacyIds": [],
@@ -20,14 +20,11 @@
 		"apiVersion": "0.0.0",
 		"entrypoint": "../src/index.js"
 	},
-	"manufacturer": "Canon",
+	"manufacturer": "eMotimo",
 	"products": [
-		"CR-N300",
-		"CR-N500",
-		"CR-N700",
-		"CR-X300",
-		"CR-X500",
-		"XF605"
+		"ST4",
+		"ST4.3",
+		"SA2"
 	],
 	"keywords": [
 		"ptz",

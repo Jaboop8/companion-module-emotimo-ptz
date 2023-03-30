@@ -347,7 +347,7 @@ module.exports = {
 				name: 'Pan/Tilt - Pan Left',
 				options: [],
 				callback: async (action) => {
-					cmd = 'pan=left&pan.speed.dir=' + this.ptSpeed
+					cmd = '\x45\x4D\x0C\x01\x01\x03\x00\x01\x86\xA0\x9A\x99'
 					this.sendPTZ(this.ptzCommand, cmd)
 				}
 			}
